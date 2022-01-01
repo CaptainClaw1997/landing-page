@@ -5,6 +5,40 @@ body {
     flex-direction: column;
 }
 
+button, .sign-up-box {
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.sign-up-box,.sign-up-container {
+    padding: 48px;
+}
+
+.sign-up-box {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 0px 32px;
+    font-weight: bold;
+}
+
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
