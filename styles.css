@@ -5,6 +5,39 @@ body {
     flex-direction: column;
 }
 
+.testimonial {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-container {
+    max-width: 500px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.testimonial-container-text {
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.testimonial-footer {
+    font-weight: bold;
+    text-align: right;
+    flex: 1 1 auto;
+    align-self: flex-end;
+}
+
 button, .sign-up-box {
     background-color: #3882f6;
     color: #E5E7EB;
